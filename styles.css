@@ -199,7 +199,10 @@ body {
     width: 125%;
   } */
   .popup__description {
-    margin-bottom: 45px;
+    height: 331px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .popup__description p {
     margin-bottom: 30px;
