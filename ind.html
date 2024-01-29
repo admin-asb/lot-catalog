@@ -1,0 +1,2797 @@
+<div class="container-common">
+  <div class="how">
+    <a class="back-to-main__btn" href="/help">
+      <div class="back-to-main">
+        <img
+          src="https://static.sz.kz/test/userguide/img/arrow-left.svg"
+          alt="" />
+        <p class="back-to-main__text">Анықтамалыққа оралу</p>
+      </div>
+    </a>
+    <h2>Ұтысты қалай алуға болады</h2>
+    <div class="transition">
+      <div class="move move1 active"></div>
+      <div class="move move2"></div>
+      <div class="move move3"></div>
+    </div>
+
+    <div class="get-win-main" id="step1">
+      <h3>Билет қайда сатып алынды?</h3>
+      <div class="how__wrapper">
+        <div class="blue-box tick-online" onclick="nextStep(1, 'option1')">
+          Онлайн
+        </div>
+        <div class="blue-box tick-offline" onclick="nextStep(1, 'option2')">
+          Сауда нүктесінде
+        </div>
+      </div>
+    </div>
+
+    <div class="get-win-online" id="step2">
+      <h3>Толығырақ айтсақ?</h3>
+      <div class="how__wrapper">
+        <div class="blue-box tick-web" onclick="nextStep(2, 'option1')">
+          Сайтта / Қосымшада
+        </div>
+        <div class="blue-box tick-sms" onclick="nextStep(2, 'option2')">
+          SMS арқылы
+        </div>
+        <div class="blue-box tick-beeline" onclick="nextStep(2, 'option3')">
+          Beeline қосымшасында
+        </div>
+      </div>
+      <a class="go-back">
+        <div class="go-back__btn">Кері</div>
+      </a>
+    </div>
+
+    <div class="get-win-offline" id="step-offline-2">
+      <h3>Толығырақ айтсақ?</h3>
+      <div class="how__wrapper">
+        <div class="blue-box tick-web" onclick="nextStep(2, 'option1')">
+          Сауда нүктесінде
+        </div>
+        <!-- <div class="blue-box tick-sms" onclick="nextStep(2, 'option2')">
+            Қазпошта бөлімшелерінде
+          </div> -->
+      </div>
+      <a class="go-back">
+        <div class="go-back__btn">Кері</div>
+      </a>
+    </div>
+
+    <div class="online-amounts" id="step3">
+      <h3>Ұтыс мөлшері қандай?</h3>
+      <div class="how__wrapper">
+        <div
+          class="blue-box blue-small-box minSum"
+          onclick="nextStep(3, 'option1')">
+          22 152 ₸ дейін
+        </div>
+        <div
+          class="blue-box blue-small-box mediumSum"
+          onclick="nextStep(3, 'option2')">
+          22 152 ₸-ден 250 000 ₸ дейін
+        </div>
+        <div
+          class="blue-box blue-small-box maxSum"
+          onclick="nextStep(3, 'option3')">
+          250 000 ₸ астам
+        </div>
+      </div>
+      <a class="go-back">
+        <div class="go-back__btn">Кері</div>
+      </a>
+    </div>
+
+    <div class="offline-amounts" id="step-offline-3">
+      <h3>Ұтыс мөлшері қандай?</h3>
+      <div class="how__wrapper">
+        <div
+          class="blue-box blue-small-box minSum"
+          onclick="nextStep(3, 'option1')">
+          22 152 ₸ дейін
+        </div>
+        <div
+          class="blue-box blue-small-box mediumSum"
+          onclick="nextStep(3, 'option2')">
+          22 152 ₸-ден 100 000 ₸ дейін
+        </div>
+        <div
+          class="blue-box blue-small-box maxSum"
+          onclick="nextStep(3, 'option3')">
+          100 000 ₸ астам
+        </div>
+      </div>
+      <a class="go-back">
+        <div class="go-back__btn">Кері</div>
+      </a>
+    </div>
+
+    <div class="final-result" id="result1">
+      <h3>
+        22 152 ₸ дейін <br />
+        <span>сайтта / қосымшада </span>
+      </h3>
+      <div class="info__wrapper">
+        <p>
+          <b>Ұтысты алу үшін:</b>
+        </p>
+        <ol>
+          <li>
+            «Менің билеттерім» бөліміне өтіп, «Ұтысты алу» батырмасын басыңыз.
+          </li>
+          <li>Ұтыстар «Әмиянға» есептеледі.</li>
+          <li>
+            «Әмиян» бөлімінде ұтыстарыңызды кез келген ыңғайлы әдіспен
+            шығарыңыз.
+          </li>
+        </ol>
+        <a href="https://sz.kz/tickets">
+          <button>Менің билеттерім</button>
+        </a>
+      </div>
+
+      <div class="important__container">
+        <h3>Маңызды:</h3>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Төлеу мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Лотерея билетінің (түбіртектің) сараптамасын қоса алғанда,
+                  ұтысты қолма-қол ақшасыз төлеу рәсімі «Сәтті Жұлдыз» АҚ бас
+                  кеңсесі ұтымгер билетті (түбіртекті) алған күнінен бастап
+                  30&nbsp;(отыз) жұмыс күніне дейін құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысқа салық салу</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  ҚР Салық заңнамасына сәйкес АЕК-тің 6&nbsp;еселенген
+                  мөлшерінен асатын ұтыстарға төлем көзінен жеке табыс салығы
+                  салынады. Табыс салығын төлеу ұтысты алу сәтіндегі ҚР
+                  қолданыстағы Салық кодексіне сәйкес Лотерея қатысушысының
+                  ұтысы сомасынан салық сомасын ұстап қалу түрінде жүргізіледі.
+                  <br /><br />Жоғарыда көрсетілген салық ставкалары:
+                </p>
+                <ul>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР резиденттері үшін&nbsp;- 10% (он);
+                  </li>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР бейрезиденттері үшін&nbsp;- 20% (жиырма).
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Жеңілдік санатына жататын азаматтарға арналған төлемдер</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Егер жеңімпаз азаматтардың жеңілдік санатына жататын болса
+                  (ардагерлер, мүгедектер және&nbsp;т.б.), жүлдені тіркеу
+                  кезінде ол жеңілдік санатын растайтын құжатты ұсынуы қажет.
+                  Жеңілдетілген жеке табыс салығының сомасы ҚР қолданыстағы
+                  салық заңнамасына сәйкес есептелетін болады.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысты талап ету мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Тираждық ойындар бойынша ұтымгер лотерея билеттері ұтымгер
+                  билет қатысқан ұтыс ойыны өткізілген күннен бастап 6&nbsp;ай
+                  ішінде төлеуге қабылданады. <br /><br />
+                  Лездік ойындар бойынша ұтысты талап ету мерзімі лотереяның
+                  қолданылу мерзімі аяқталған сәттен бастап 6&nbsp;айды құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>2023 жылдың АЕК мөлшері</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Айлық есептік көрсеткіш (АЕК) жәрдемақыларды және өзге&nbsp;де
+                  әлеуметтік төлемдерді есептеу, сондай-ақ айыппұл санкцияларын,
+                  салықтарды және басқа&nbsp;да төлемдерді қолдану үшін
+                  қолданылады. Қазақстан Республикасының заңнамасына сәйкес
+                  2023&nbsp;жылы
+                  <b>3&nbsp;692&nbsp;₸</b> құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>IBAN деген не?</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  IBAN – банктік шоттың 20&nbsp;таңбалы нөмірі. IBAN нөмірін
+                  банктің кез келген бөлімшесінен немесе интернет-банкингтің
+                  жеке кабинетінен біле аласыз.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="important__buttons">
+          <div class="important__btn">
+            <a href="https://sz.kz/kontakty">“Сәтті Жұлдыз” бас кеңсесі</a>
+          </div>
+          <div class="important__btn">
+            <a href="/faq">Жиі қойылатын сұрақтар</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="final-result" id="result2">
+      <h3>
+        22 152 ₸-ден 250 000 ₸ дейін <br />
+        <span>сайтта / қосымшада </span>
+      </h3>
+      <div class="info__wrapper">
+        <p>
+          <b>Ұтысты алу үшін:</b>
+        </p>
+        <ol>
+          <li>профильді толықтай толтырыңыз</li>
+          <li>
+            «Менің билеттерім» бөліміне өтіп, «Ұтысты алу» батырмасын басыңыз.
+          </li>
+          <li>
+            ұтыстар профиль деректері тексерілгеннен кейін сіздің жеке
+            кабинетіңізге түседі.
+          </li>
+          <li>
+            «Әмиян» бөлімінде ұтыстарыңызды кез келген ыңғайлы әдіспен
+            шығарыңыз.
+          </li>
+        </ol>
+        <a href="https://sz.kz/tickets">
+          <button>Менің билеттерім</button>
+        </a>
+      </div>
+
+      <div class="important__container">
+        <h3>Маңызды:</h3>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Төлеу мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Лотерея билетінің (түбіртектің) сараптамасын қоса алғанда,
+                  ұтысты қолма-қол ақшасыз төлеу рәсімі «Сәтті Жұлдыз» АҚ бас
+                  кеңсесі ұтымгер билетті (түбіртекті) алған күнінен бастап
+                  30&nbsp;(отыз) жұмыс күніне дейін құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысқа салық салу</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  ҚР Салық заңнамасына сәйкес АЕК-тің 6&nbsp;еселенген
+                  мөлшерінен асатын ұтыстарға төлем көзінен жеке табыс салығы
+                  салынады. Табыс салығын төлеу ұтысты алу сәтіндегі ҚР
+                  қолданыстағы Салық кодексіне сәйкес Лотерея қатысушысының
+                  ұтысы сомасынан салық сомасын ұстап қалу түрінде жүргізіледі.
+                  <br /><br />Жоғарыда көрсетілген салық ставкалары:
+                </p>
+                <ul>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР резиденттері үшін&nbsp;- 10% (он);
+                  </li>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР бейрезиденттері үшін&nbsp;- 20% (жиырма).
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Жеңілдік санатына жататын азаматтарға арналған төлемдер</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Егер жеңімпаз азаматтардың жеңілдік санатына жататын болса
+                  (ардагерлер, мүгедектер және&nbsp;т.б.), жүлдені тіркеу
+                  кезінде ол жеңілдік санатын растайтын құжатты ұсынуы қажет.
+                  Жеңілдетілген жеке табыс салығының сомасы ҚР қолданыстағы
+                  салық заңнамасына сәйкес есептелетін болады.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысты талап ету мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Тираждық ойындар бойынша ұтымгер лотерея билеттері ұтымгер
+                  билет қатысқан ұтыс ойыны өткізілген күннен бастап 6&nbsp;ай
+                  ішінде төлеуге қабылданады. <br /><br />
+                  Лездік ойындар бойынша ұтысты талап ету мерзімі лотереяның
+                  қолданылу мерзімі аяқталған сәттен бастап 6&nbsp;айды құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>2023 жылдың АЕК мөлшері</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Айлық есептік көрсеткіш (АЕК) жәрдемақыларды және өзге&nbsp;де
+                  әлеуметтік төлемдерді есептеу, сондай-ақ айыппұл санкцияларын,
+                  салықтарды және басқа&nbsp;да төлемдерді қолдану үшін
+                  қолданылады. Қазақстан Республикасының заңнамасына сәйкес
+                  2023&nbsp;жылы
+                  <b>3&nbsp;692&nbsp;₸</b> құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>IBAN деген не?</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  IBAN – банктік шоттың 20&nbsp;таңбалы нөмірі. IBAN нөмірін
+                  банктің кез келген бөлімшесінен немесе интернет-банкингтің
+                  жеке кабинетінен біле аласыз.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="important__buttons">
+          <div class="important__btn">
+            <a href="https://sz.kz/kontakty">“Сәтті Жұлдыз” бас кеңсесі</a>
+          </div>
+          <div class="important__btn">
+            <a href="/faq">Жиі қойылатын сұрақтар</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="final-result" id="result3">
+      <h3>
+        250 000 ₸ астам <br />
+        <span>сайтта / қосымшада </span>
+      </h3>
+      <div class="info__wrapper">
+        <p>
+          "Сәтті Жұлдыз" ұлттық лотереясының өңірлік өкілдігіне немесе
+          компанияның лотерея орталығына мына мекенжай бойынша жүгіну қажет:
+          Алматы&nbsp;қ., Жібек&nbsp;Жолы,&nbsp;50. Ұтыс тек жеңімпаздың карта
+          шотына (IBAN) қолма-қол ақшасыз есеп айырысу арқылы төленеді.
+        </p>
+        <br />
+        <p>
+          <b>Ұтысты алу үшін сізге:</b>
+        </p>
+        <ol class="info__wrapper-list">
+          <li>жеке куәліктің көшірмесін;</li>
+          <li>ұтысқа ие болған билетті;</li>
+          <li>IBAN карта шотының түпнұсқасы немесе көшірмесін ұсыну;</li>
+        </ol>
+        <br />
+        <p>
+          <b>...сондай-ақ:</b>
+        </p>
+        <ol class="info__wrapper-list">
+          <li>
+            Лотерея қатысушысының дербес деректерді жинауға, өңдеуге және
+            қорғауға келісімі
+          </li>
+          <li>ақша қаражатын аударуға өтінім;</li>
+          <li>«анықтама» екі данада;</li>
+          <li>лотерея билетіне сараптама жүргізуге өтінім;</li>
+          <li>медиалық іс-шараларды өткізуге арналған келісімшарт;</li>
+          <li>«Жеңімпаздың байланыс деректері» формасын толтыру қажет.</li>
+        </ol>
+      </div>
+
+      <div class="box">
+        Бас жүлдені төлеу тәртібі ұтысқа ие болған лотерея билетін міндетті
+        түрде сараптамадан өткізуді талап етеді.
+      </div>
+
+      <div class="important__container">
+        <h3>Маңызды:</h3>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Төлеу мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Лотерея билетінің (түбіртектің) сараптамасын қоса алғанда,
+                  ұтысты қолма-қол ақшасыз төлеу рәсімі «Сәтті Жұлдыз» АҚ бас
+                  кеңсесі ұтымгер билетті (түбіртекті) алған күнінен бастап
+                  30&nbsp;(отыз) жұмыс күніне дейін құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысқа салық салу</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  ҚР Салық заңнамасына сәйкес АЕК-тің 6&nbsp;еселенген
+                  мөлшерінен асатын ұтыстарға төлем көзінен жеке табыс салығы
+                  салынады. Табыс салығын төлеу ұтысты алу сәтіндегі ҚР
+                  қолданыстағы Салық кодексіне сәйкес Лотерея қатысушысының
+                  ұтысы сомасынан салық сомасын ұстап қалу түрінде жүргізіледі.
+                  <br /><br />Жоғарыда көрсетілген салық ставкалары:
+                </p>
+                <ul>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР резиденттері үшін&nbsp;- 10% (он);
+                  </li>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР бейрезиденттері үшін&nbsp;- 20% (жиырма).
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Жеңілдік санатына жататын азаматтарға арналған төлемдер</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Егер жеңімпаз азаматтардың жеңілдік санатына жататын болса
+                  (ардагерлер, мүгедектер және&nbsp;т.б.), жүлдені тіркеу
+                  кезінде ол жеңілдік санатын растайтын құжатты ұсынуы қажет.
+                  Жеңілдетілген жеке табыс салығының сомасы ҚР қолданыстағы
+                  салық заңнамасына сәйкес есептелетін болады.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысты талап ету мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Тираждық ойындар бойынша ұтымгер лотерея билеттері ұтымгер
+                  билет қатысқан ұтыс ойыны өткізілген күннен бастап 6&nbsp;ай
+                  ішінде төлеуге қабылданады. <br /><br />
+                  Лездік ойындар бойынша ұтысты талап ету мерзімі лотереяның
+                  қолданылу мерзімі аяқталған сәттен бастап 6&nbsp;айды құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>2023 жылдың АЕК мөлшері</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Айлық есептік көрсеткіш (АЕК) жәрдемақыларды және өзге&nbsp;де
+                  әлеуметтік төлемдерді есептеу, сондай-ақ айыппұл санкцияларын,
+                  салықтарды және басқа&nbsp;да төлемдерді қолдану үшін
+                  қолданылады. Қазақстан Республикасының заңнамасына сәйкес
+                  2023&nbsp;жылы
+                  <b>3&nbsp;692&nbsp;₸</b> құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>IBAN деген не?</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  IBAN – банктік шоттың 20&nbsp;таңбалы нөмірі. IBAN нөмірін
+                  банктің кез келген бөлімшесінен немесе интернет-банкингтің
+                  жеке кабинетінен біле аласыз.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="important__buttons">
+          <div class="important__btn">
+            <a href="https://sz.kz/kontakty">“Сәтті Жұлдыз” бас кеңсесі</a>
+          </div>
+          <div class="important__btn">
+            <a href="/faq">Жиі қойылатын сұрақтар</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="final-result" id="result4">
+      <h3>
+        22 152 ₸ дейін <br />
+        <span>SMS арқылы</span>
+      </h3>
+      <div class="info__wrapper">
+        <p>
+          <span>5000 ₸ дейінгі ұтыс:</span> <br />Ұялы телефон теңгеріміне
+          автоматты түрде есептеледі.
+          <br />
+          <br />
+          <span>5000 ₸ асатын ұтыс:</span>
+          <br />
+          <b>Ұялы телефон теңгеріміне:</b> <br />9087 нөміріне PRIZE
+          билет_нөмірі мәтінімен тегін SMS хабарламасын жіберіңіз.
+          <br />
+          <br />
+          <b>sz.kz әмиянына:</b>
+        </p>
+        <ol class="info__wrapper-list">
+          <li>
+            <a href="https://sz.kz/getwin">https://sz.kz/getwin</a> cілтемесі
+            бойынша өтіңіз.
+          </li>
+          <li>Ұтысқа ие болған билет нөмірін енгізіңіз.</li>
+          <li>Төлем әдісін таңдаңыз.</li>
+        </ol>
+      </div>
+
+      <div class="important__container">
+        <h3>Маңызды:</h3>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Төлеу мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Лотерея билетінің (түбіртектің) сараптамасын қоса алғанда,
+                  ұтысты қолма-қол ақшасыз төлеу рәсімі «Сәтті Жұлдыз» АҚ бас
+                  кеңсесі ұтымгер билетті (түбіртекті) алған күнінен бастап
+                  30&nbsp;(отыз) жұмыс күніне дейін құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысқа салық салу</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  ҚР Салық заңнамасына сәйкес АЕК-тің 6&nbsp;еселенген
+                  мөлшерінен асатын ұтыстарға төлем көзінен жеке табыс салығы
+                  салынады. Табыс салығын төлеу ұтысты алу сәтіндегі ҚР
+                  қолданыстағы Салық кодексіне сәйкес Лотерея қатысушысының
+                  ұтысы сомасынан салық сомасын ұстап қалу түрінде жүргізіледі.
+                  <br /><br />Жоғарыда көрсетілген салық ставкалары:
+                </p>
+                <ul>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР резиденттері үшін&nbsp;- 10% (он);
+                  </li>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР бейрезиденттері үшін&nbsp;- 20% (жиырма).
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Жеңілдік санатына жататын азаматтарға арналған төлемдер</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Егер жеңімпаз азаматтардың жеңілдік санатына жататын болса
+                  (ардагерлер, мүгедектер және&nbsp;т.б.), жүлдені тіркеу
+                  кезінде ол жеңілдік санатын растайтын құжатты ұсынуы қажет.
+                  Жеңілдетілген жеке табыс салығының сомасы ҚР қолданыстағы
+                  салық заңнамасына сәйкес есептелетін болады.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысты талап ету мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Тираждық ойындар бойынша ұтымгер лотерея билеттері ұтымгер
+                  билет қатысқан ұтыс ойыны өткізілген күннен бастап 6&nbsp;ай
+                  ішінде төлеуге қабылданады. <br /><br />
+                  Лездік ойындар бойынша ұтысты талап ету мерзімі лотереяның
+                  қолданылу мерзімі аяқталған сәттен бастап 6&nbsp;айды құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>2023 жылдың АЕК мөлшері</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Айлық есептік көрсеткіш (АЕК) жәрдемақыларды және өзге&nbsp;де
+                  әлеуметтік төлемдерді есептеу, сондай-ақ айыппұл санкцияларын,
+                  салықтарды және басқа&nbsp;да төлемдерді қолдану үшін
+                  қолданылады. Қазақстан Республикасының заңнамасына сәйкес
+                  2023&nbsp;жылы
+                  <b>3&nbsp;692&nbsp;₸</b> құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>IBAN деген не?</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  IBAN – банктік шоттың 20&nbsp;таңбалы нөмірі. IBAN нөмірін
+                  банктің кез келген бөлімшесінен немесе интернет-банкингтің
+                  жеке кабинетінен біле аласыз.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="important__buttons">
+          <div class="important__btn">
+            <a href="https://sz.kz/kontakty">“Сәтті Жұлдыз” бас кеңсесі</a>
+          </div>
+          <div class="important__btn">
+            <a href="/faq">Жиі қойылатын сұрақтар</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="final-result" id="result5">
+      <h3>
+        22 152 ₸-ден 250 000 ₸ дейін <br />
+        <span>SMS арқылы</span>
+      </h3>
+      <div class="info__wrapper">
+        <p>
+          <b>Ұтысты алу үшін:</b>
+        </p>
+        <ol>
+          <li>
+            <a href="https://sz.kz/getwin">https://sz.kz/getwin</a> cілтемесі
+            бойынша өтіңіз.
+          </li>
+          <li>Ұтысқа ие болған билет нөмірін енгізіңіз.</li>
+          <li>Төлем әдісін таңдаңыз.</li>
+          <li>ЖСН енгізіңіз.</li>
+          <li>Жеке куәліктің беткі жағын жүктеңіз.</li>
+        </ol>
+      </div>
+
+      <div class="important__container">
+        <h3>Маңызды:</h3>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Төлеу мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Лотерея билетінің (түбіртектің) сараптамасын қоса алғанда,
+                  ұтысты қолма-қол ақшасыз төлеу рәсімі «Сәтті Жұлдыз» АҚ бас
+                  кеңсесі ұтымгер билетті (түбіртекті) алған күнінен бастап
+                  30&nbsp;(отыз) жұмыс күніне дейін құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысқа салық салу</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  ҚР Салық заңнамасына сәйкес АЕК-тің 6&nbsp;еселенген
+                  мөлшерінен асатын ұтыстарға төлем көзінен жеке табыс салығы
+                  салынады. Табыс салығын төлеу ұтысты алу сәтіндегі ҚР
+                  қолданыстағы Салық кодексіне сәйкес Лотерея қатысушысының
+                  ұтысы сомасынан салық сомасын ұстап қалу түрінде жүргізіледі.
+                  <br /><br />Жоғарыда көрсетілген салық ставкалары:
+                </p>
+                <ul>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР резиденттері үшін&nbsp;- 10% (он);
+                  </li>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР бейрезиденттері үшін&nbsp;- 20% (жиырма).
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Жеңілдік санатына жататын азаматтарға арналған төлемдер</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Егер жеңімпаз азаматтардың жеңілдік санатына жататын болса
+                  (ардагерлер, мүгедектер және&nbsp;т.б.), жүлдені тіркеу
+                  кезінде ол жеңілдік санатын растайтын құжатты ұсынуы қажет.
+                  Жеңілдетілген жеке табыс салығының сомасы ҚР қолданыстағы
+                  салық заңнамасына сәйкес есептелетін болады.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысты талап ету мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Тираждық ойындар бойынша ұтымгер лотерея билеттері ұтымгер
+                  билет қатысқан ұтыс ойыны өткізілген күннен бастап 6&nbsp;ай
+                  ішінде төлеуге қабылданады. <br /><br />
+                  Лездік ойындар бойынша ұтысты талап ету мерзімі лотереяның
+                  қолданылу мерзімі аяқталған сәттен бастап 6&nbsp;айды құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>2023 жылдың АЕК мөлшері</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Айлық есептік көрсеткіш (АЕК) жәрдемақыларды және өзге&nbsp;де
+                  әлеуметтік төлемдерді есептеу, сондай-ақ айыппұл санкцияларын,
+                  салықтарды және басқа&nbsp;да төлемдерді қолдану үшін
+                  қолданылады. Қазақстан Республикасының заңнамасына сәйкес
+                  2023&nbsp;жылы
+                  <b>3&nbsp;692&nbsp;₸</b> құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>IBAN деген не?</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  IBAN – банктік шоттың 20&nbsp;таңбалы нөмірі. IBAN нөмірін
+                  банктің кез келген бөлімшесінен немесе интернет-банкингтің
+                  жеке кабинетінен біле аласыз.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="important__buttons">
+          <div class="important__btn">
+            <a href="https://sz.kz/kontakty">“Сәтті Жұлдыз” бас кеңсесі</a>
+          </div>
+          <div class="important__btn">
+            <a href="/faq">Жиі қойылатын сұрақтар</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="final-result" id="result6">
+      <h3>
+        250 000 ₸ астам <br />
+        <span>SMS арқылы</span>
+      </h3>
+      <div class="info__wrapper">
+        <p>
+          "Сәтті Жұлдыз" ұлттық лотереясының өңірлік өкілдігіне немесе
+          компанияның лотерея орталығына мына мекенжай бойынша жүгіну қажет:
+          Алматы&nbsp;қ., Жібек&nbsp;Жолы,&nbsp;50. Ұтыс тек жеңімпаздың карта
+          шотына (IBAN) қолма-қол ақшасыз есеп айырысу арқылы төленеді.
+        </p>
+        <br />
+        <p>
+          <b>Ұтысты алу үшін сізге:</b>
+        </p>
+        <ol class="info__wrapper-list">
+          <li>жеке куәліктің көшірмесін;</li>
+          <li>ұтысқа ие болған билетті;</li>
+          <li>IBAN карта шотының түпнұсқасы немесе көшірмесін ұсыну;</li>
+        </ol>
+        <br />
+        <p>
+          <b>...сондай-ақ:</b>
+        </p>
+        <ol class="info__wrapper-list">
+          <li>
+            Лотерея қатысушысының дербес деректерді жинауға, өңдеуге және
+            қорғауға келісімі
+          </li>
+          <li>ақша қаражатын аударуға өтінім;</li>
+          <li>«анықтама» екі данада;</li>
+          <li>лотерея билетіне сараптама жүргізуге өтінім;</li>
+          <li>медиалық іс-шараларды өткізуге арналған келісімшарт;</li>
+          <li>«Жеңімпаздың байланыс деректері» формасын толтыру қажет.</li>
+        </ol>
+      </div>
+
+      <div class="box">
+        Бас жүлдені төлеу тәртібі ұтысқа ие болған лотерея билетін міндетті
+        түрде сараптамадан өткізуді талап етеді.
+      </div>
+
+      <div class="important__container">
+        <h3>Маңызды:</h3>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Төлеу мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Лотерея билетінің (түбіртектің) сараптамасын қоса алғанда,
+                  ұтысты қолма-қол ақшасыз төлеу рәсімі «Сәтті Жұлдыз» АҚ бас
+                  кеңсесі ұтымгер билетті (түбіртекті) алған күнінен бастап
+                  30&nbsp;(отыз) жұмыс күніне дейін құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысқа салық салу</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  ҚР Салық заңнамасына сәйкес АЕК-тің 6&nbsp;еселенген
+                  мөлшерінен асатын ұтыстарға төлем көзінен жеке табыс салығы
+                  салынады. Табыс салығын төлеу ұтысты алу сәтіндегі ҚР
+                  қолданыстағы Салық кодексіне сәйкес Лотерея қатысушысының
+                  ұтысы сомасынан салық сомасын ұстап қалу түрінде жүргізіледі.
+                  <br /><br />Жоғарыда көрсетілген салық ставкалары:
+                </p>
+                <ul>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР резиденттері үшін&nbsp;- 10% (он);
+                  </li>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР бейрезиденттері үшін&nbsp;- 20% (жиырма).
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Жеңілдік санатына жататын азаматтарға арналған төлемдер</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Егер жеңімпаз азаматтардың жеңілдік санатына жататын болса
+                  (ардагерлер, мүгедектер және&nbsp;т.б.), жүлдені тіркеу
+                  кезінде ол жеңілдік санатын растайтын құжатты ұсынуы қажет.
+                  Жеңілдетілген жеке табыс салығының сомасы ҚР қолданыстағы
+                  салық заңнамасына сәйкес есептелетін болады.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысты талап ету мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Тираждық ойындар бойынша ұтымгер лотерея билеттері ұтымгер
+                  билет қатысқан ұтыс ойыны өткізілген күннен бастап 6&nbsp;ай
+                  ішінде төлеуге қабылданады. <br /><br />
+                  Лездік ойындар бойынша ұтысты талап ету мерзімі лотереяның
+                  қолданылу мерзімі аяқталған сәттен бастап 6&nbsp;айды құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>2023 жылдың АЕК мөлшері</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Айлық есептік көрсеткіш (АЕК) жәрдемақыларды және өзге&nbsp;де
+                  әлеуметтік төлемдерді есептеу, сондай-ақ айыппұл санкцияларын,
+                  салықтарды және басқа&nbsp;да төлемдерді қолдану үшін
+                  қолданылады. Қазақстан Республикасының заңнамасына сәйкес
+                  2023&nbsp;жылы
+                  <b>3&nbsp;692&nbsp;₸</b> құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>IBAN деген не?</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  IBAN – банктік шоттың 20&nbsp;таңбалы нөмірі. IBAN нөмірін
+                  банктің кез келген бөлімшесінен немесе интернет-банкингтің
+                  жеке кабинетінен біле аласыз.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="important__buttons">
+          <div class="important__btn">
+            <a href="https://sz.kz/kontakty">“Сәтті Жұлдыз” бас кеңсесі</a>
+          </div>
+          <div class="important__btn">
+            <a href="/faq">Жиі қойылатын сұрақтар</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="final-result" id="result7">
+      <h3>
+        22 152 ₸ дейін <br />
+        <span>Beeline қосымшасында</span>
+      </h3>
+      <div class="info__wrapper">
+        <p>
+          Ұтыстар ұялы телефоныңыздың теңгеріміне автоматты түрде есептеледі
+        </p>
+      </div>
+
+      <div class="important__container">
+        <h3>Маңызды:</h3>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Төлеу мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Лотерея билетінің (түбіртектің) сараптамасын қоса алғанда,
+                  ұтысты қолма-қол ақшасыз төлеу рәсімі «Сәтті Жұлдыз» АҚ бас
+                  кеңсесі ұтымгер билетті (түбіртекті) алған күнінен бастап
+                  30&nbsp;(отыз) жұмыс күніне дейін құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысқа салық салу</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  ҚР Салық заңнамасына сәйкес АЕК-тің 6&nbsp;еселенген
+                  мөлшерінен асатын ұтыстарға төлем көзінен жеке табыс салығы
+                  салынады. Табыс салығын төлеу ұтысты алу сәтіндегі ҚР
+                  қолданыстағы Салық кодексіне сәйкес Лотерея қатысушысының
+                  ұтысы сомасынан салық сомасын ұстап қалу түрінде жүргізіледі.
+                  <br /><br />Жоғарыда көрсетілген салық ставкалары:
+                </p>
+                <ul>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР резиденттері үшін&nbsp;- 10% (он);
+                  </li>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР бейрезиденттері үшін&nbsp;- 20% (жиырма).
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Жеңілдік санатына жататын азаматтарға арналған төлемдер</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Егер жеңімпаз азаматтардың жеңілдік санатына жататын болса
+                  (ардагерлер, мүгедектер және&nbsp;т.б.), жүлдені тіркеу
+                  кезінде ол жеңілдік санатын растайтын құжатты ұсынуы қажет.
+                  Жеңілдетілген жеке табыс салығының сомасы ҚР қолданыстағы
+                  салық заңнамасына сәйкес есептелетін болады.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысты талап ету мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Тираждық ойындар бойынша ұтымгер лотерея билеттері ұтымгер
+                  билет қатысқан ұтыс ойыны өткізілген күннен бастап 6&nbsp;ай
+                  ішінде төлеуге қабылданады. <br /><br />
+                  Лездік ойындар бойынша ұтысты талап ету мерзімі лотереяның
+                  қолданылу мерзімі аяқталған сәттен бастап 6&nbsp;айды құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>2023 жылдың АЕК мөлшері</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Айлық есептік көрсеткіш (АЕК) жәрдемақыларды және өзге&nbsp;де
+                  әлеуметтік төлемдерді есептеу, сондай-ақ айыппұл санкцияларын,
+                  салықтарды және басқа&nbsp;да төлемдерді қолдану үшін
+                  қолданылады. Қазақстан Республикасының заңнамасына сәйкес
+                  2023&nbsp;жылы
+                  <b>3&nbsp;692&nbsp;₸</b> құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>IBAN деген не?</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  IBAN – банктік шоттың 20&nbsp;таңбалы нөмірі. IBAN нөмірін
+                  банктің кез келген бөлімшесінен немесе интернет-банкингтің
+                  жеке кабинетінен біле аласыз.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="important__buttons">
+          <div class="important__btn">
+            <a href="https://sz.kz/kontakty">“Сәтті Жұлдыз” бас кеңсесі</a>
+          </div>
+          <div class="important__btn">
+            <a href="/faq">Жиі қойылатын сұрақтар</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="final-result" id="result8">
+      <h3>
+        22 152 ₸-ден 250 000 ₸ дейін <br />
+        <span>Beeline қосымшасында</span>
+      </h3>
+      <div class="info__wrapper">
+        <p>
+          <b>Ұтысты алу үшін:</b>
+        </p>
+        <ol>
+          <li>Мой Билайн қосымшасына өтіңіз.</li>
+          <li>6 АЕК-тен 250 000 теңгеге дейінгі ұтысты таңдаңыз.</li>
+          <li>ЖСН мен жеке куәліктің алдыңғы бетін жүктеңіз.</li>
+          <li>
+            Ұтыстар профиль деректерін тексергеннен кейін телефон теңгеріміне
+            түседі.
+          </li>
+        </ol>
+      </div>
+
+      <div class="important__container">
+        <h3>Маңызды:</h3>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Төлеу мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Лотерея билетінің (түбіртектің) сараптамасын қоса алғанда,
+                  ұтысты қолма-қол ақшасыз төлеу рәсімі «Сәтті Жұлдыз» АҚ бас
+                  кеңсесі ұтымгер билетті (түбіртекті) алған күнінен бастап
+                  30&nbsp;(отыз) жұмыс күніне дейін құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысқа салық салу</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  ҚР Салық заңнамасына сәйкес АЕК-тің 6&nbsp;еселенген
+                  мөлшерінен асатын ұтыстарға төлем көзінен жеке табыс салығы
+                  салынады. Табыс салығын төлеу ұтысты алу сәтіндегі ҚР
+                  қолданыстағы Салық кодексіне сәйкес Лотерея қатысушысының
+                  ұтысы сомасынан салық сомасын ұстап қалу түрінде жүргізіледі.
+                  <br /><br />Жоғарыда көрсетілген салық ставкалары:
+                </p>
+                <ul>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР резиденттері үшін&nbsp;- 10% (он);
+                  </li>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР бейрезиденттері үшін&nbsp;- 20% (жиырма).
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Жеңілдік санатына жататын азаматтарға арналған төлемдер</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Егер жеңімпаз азаматтардың жеңілдік санатына жататын болса
+                  (ардагерлер, мүгедектер және&nbsp;т.б.), жүлдені тіркеу
+                  кезінде ол жеңілдік санатын растайтын құжатты ұсынуы қажет.
+                  Жеңілдетілген жеке табыс салығының сомасы ҚР қолданыстағы
+                  салық заңнамасына сәйкес есептелетін болады.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысты талап ету мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Тираждық ойындар бойынша ұтымгер лотерея билеттері ұтымгер
+                  билет қатысқан ұтыс ойыны өткізілген күннен бастап 6&nbsp;ай
+                  ішінде төлеуге қабылданады. <br /><br />
+                  Лездік ойындар бойынша ұтысты талап ету мерзімі лотереяның
+                  қолданылу мерзімі аяқталған сәттен бастап 6&nbsp;айды құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>2023 жылдың АЕК мөлшері</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Айлық есептік көрсеткіш (АЕК) жәрдемақыларды және өзге&nbsp;де
+                  әлеуметтік төлемдерді есептеу, сондай-ақ айыппұл санкцияларын,
+                  салықтарды және басқа&nbsp;да төлемдерді қолдану үшін
+                  қолданылады. Қазақстан Республикасының заңнамасына сәйкес
+                  2023&nbsp;жылы
+                  <b>3&nbsp;692&nbsp;₸</b> құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>IBAN деген не?</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  IBAN – банктік шоттың 20&nbsp;таңбалы нөмірі. IBAN нөмірін
+                  банктің кез келген бөлімшесінен немесе интернет-банкингтің
+                  жеке кабинетінен біле аласыз.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="important__buttons">
+          <div class="important__btn">
+            <a href="#">Головной офис «Сәтті&nbsp;Жұлдыз»</a>
+          </div>
+          <div class="important__btn">
+            <a href="/faq">Жиі қойылатын сұрақтар</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="final-result" id="result9">
+      <h3>
+        250 000 ₸ астам <br />
+        <span>Beeline қосымшасында</span>
+      </h3>
+      <div class="info__wrapper">
+        <p>
+          "Сәтті Жұлдыз" ұлттық лотереясының өңірлік өкілдігіне немесе
+          компанияның лотерея орталығына мына мекенжай бойынша жүгіну қажет:
+          Алматы&nbsp;қ., Жібек&nbsp;Жолы,&nbsp;50. Ұтыс тек жеңімпаздың карта
+          шотына (IBAN) қолма-қол ақшасыз есеп айырысу арқылы төленеді.
+        </p>
+        <br />
+        <p>
+          <b>Ұтысты алу үшін сізге:</b>
+        </p>
+        <ol class="info__wrapper-list">
+          <li>жеке куәліктің көшірмесін;</li>
+          <li>ұтысқа ие болған билетті;</li>
+          <li>IBAN карта шотының түпнұсқасы немесе көшірмесін ұсыну;</li>
+        </ol>
+        <br />
+        <p>
+          <b>...сондай-ақ:</b>
+        </p>
+        <ol class="info__wrapper-list">
+          <li>
+            Лотерея қатысушысының дербес деректерді жинауға, өңдеуге және
+            қорғауға келісімі
+          </li>
+          <li>ақша қаражатын аударуға өтінім;</li>
+          <li>«анықтама» екі данада;</li>
+          <li>лотерея билетіне сараптама жүргізуге өтінім;</li>
+          <li>медиалық іс-шараларды өткізуге арналған келісімшарт;</li>
+          <li>«Жеңімпаздың байланыс деректері» формасын толтыру қажет.</li>
+        </ol>
+      </div>
+
+      <div class="box">
+        Бас жүлдені төлеу тәртібі ұтысқа ие болған лотерея билетін міндетті
+        түрде сараптамадан өткізуді талап етеді.
+      </div>
+
+      <div class="important__container">
+        <h3>Маңызды:</h3>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Төлеу мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Лотерея билетінің (түбіртектің) сараптамасын қоса алғанда,
+                  ұтысты қолма-қол ақшасыз төлеу рәсімі «Сәтті Жұлдыз» АҚ бас
+                  кеңсесі ұтымгер билетті (түбіртекті) алған күнінен бастап
+                  30&nbsp;(отыз) жұмыс күніне дейін құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысқа салық салу</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  ҚР Салық заңнамасына сәйкес АЕК-тің 6&nbsp;еселенген
+                  мөлшерінен асатын ұтыстарға төлем көзінен жеке табыс салығы
+                  салынады. Табыс салығын төлеу ұтысты алу сәтіндегі ҚР
+                  қолданыстағы Салық кодексіне сәйкес Лотерея қатысушысының
+                  ұтысы сомасынан салық сомасын ұстап қалу түрінде жүргізіледі.
+                  <br /><br />Жоғарыда көрсетілген салық ставкалары:
+                </p>
+                <ul>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР резиденттері үшін&nbsp;- 10% (он);
+                  </li>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР бейрезиденттері үшін&nbsp;- 20% (жиырма).
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Жеңілдік санатына жататын азаматтарға арналған төлемдер</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Егер жеңімпаз азаматтардың жеңілдік санатына жататын болса
+                  (ардагерлер, мүгедектер және&nbsp;т.б.), жүлдені тіркеу
+                  кезінде ол жеңілдік санатын растайтын құжатты ұсынуы қажет.
+                  Жеңілдетілген жеке табыс салығының сомасы ҚР қолданыстағы
+                  салық заңнамасына сәйкес есептелетін болады.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысты талап ету мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Тираждық ойындар бойынша ұтымгер лотерея билеттері ұтымгер
+                  билет қатысқан ұтыс ойыны өткізілген күннен бастап 6&nbsp;ай
+                  ішінде төлеуге қабылданады. <br /><br />
+                  Лездік ойындар бойынша ұтысты талап ету мерзімі лотереяның
+                  қолданылу мерзімі аяқталған сәттен бастап 6&nbsp;айды құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>2023 жылдың АЕК мөлшері</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Айлық есептік көрсеткіш (АЕК) жәрдемақыларды және өзге&nbsp;де
+                  әлеуметтік төлемдерді есептеу, сондай-ақ айыппұл санкцияларын,
+                  салықтарды және басқа&nbsp;да төлемдерді қолдану үшін
+                  қолданылады. Қазақстан Республикасының заңнамасына сәйкес
+                  2023&nbsp;жылы
+                  <b>3&nbsp;692&nbsp;₸</b> құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>IBAN деген не?</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  IBAN – банктік шоттың 20&nbsp;таңбалы нөмірі. IBAN нөмірін
+                  банктің кез келген бөлімшесінен немесе интернет-банкингтің
+                  жеке кабинетінен біле аласыз.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="important__buttons">
+          <div class="important__btn">
+            <a href="https://sz.kz/kontakty">“Сәтті Жұлдыз” бас кеңсесі</a>
+          </div>
+          <div class="important__btn">
+            <a href="/faq">Жиі қойылатын сұрақтар</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="final-result" id="result10">
+      <h3>
+        22 152 ₸ дейін <br />
+        <span>Сауда нүктелері</span>
+      </h3>
+      <div class="info__wrapper">
+        <p>
+          Cіз «Сәтті Жұлдыз» ұлттық лотереясының кез келген сауда нүктесіне
+          жүгіне аласыз. Ұтыстарды төлеу сауда нүктесінде қолма-қол ақшамен
+          жүзеге асырылады.
+        </p>
+      </div>
+
+      <div class="box">
+        Бас жүлдені төлеу тәртібі ұтысқа ие болған лотерея билетін міндетті
+        түрде сараптамадан өткізуді талап етеді.
+      </div>
+
+      <div class="important__container">
+        <h3>Маңызды:</h3>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Төлеу мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Лотерея билетінің (түбіртектің) сараптамасын қоса алғанда,
+                  ұтысты қолма-қол ақшасыз төлеу рәсімі «Сәтті Жұлдыз» АҚ бас
+                  кеңсесі ұтымгер билетті (түбіртекті) алған күнінен бастап
+                  30&nbsp;(отыз) жұмыс күніне дейін құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысқа салық салу</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  ҚР Салық заңнамасына сәйкес АЕК-тің 6&nbsp;еселенген
+                  мөлшерінен асатын ұтыстарға төлем көзінен жеке табыс салығы
+                  салынады. Табыс салығын төлеу ұтысты алу сәтіндегі ҚР
+                  қолданыстағы Салық кодексіне сәйкес Лотерея қатысушысының
+                  ұтысы сомасынан салық сомасын ұстап қалу түрінде жүргізіледі.
+                  <br /><br />Жоғарыда көрсетілген салық ставкалары:
+                </p>
+                <ul>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР резиденттері үшін&nbsp;- 10% (он);
+                  </li>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР бейрезиденттері үшін&nbsp;- 20% (жиырма).
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Жеңілдік санатына жататын азаматтарға арналған төлемдер</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Егер жеңімпаз азаматтардың жеңілдік санатына жататын болса
+                  (ардагерлер, мүгедектер және&nbsp;т.б.), жүлдені тіркеу
+                  кезінде ол жеңілдік санатын растайтын құжатты ұсынуы қажет.
+                  Жеңілдетілген жеке табыс салығының сомасы ҚР қолданыстағы
+                  салық заңнамасына сәйкес есептелетін болады.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысты талап ету мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Тираждық ойындар бойынша ұтымгер лотерея билеттері ұтымгер
+                  билет қатысқан ұтыс ойыны өткізілген күннен бастап 6&nbsp;ай
+                  ішінде төлеуге қабылданады. <br /><br />
+                  Лездік ойындар бойынша ұтысты талап ету мерзімі лотереяның
+                  қолданылу мерзімі аяқталған сәттен бастап 6&nbsp;айды құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>2023 жылдың АЕК мөлшері</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Айлық есептік көрсеткіш (АЕК) жәрдемақыларды және өзге&nbsp;де
+                  әлеуметтік төлемдерді есептеу, сондай-ақ айыппұл санкцияларын,
+                  салықтарды және басқа&nbsp;да төлемдерді қолдану үшін
+                  қолданылады. Қазақстан Республикасының заңнамасына сәйкес
+                  2023&nbsp;жылы
+                  <b>3&nbsp;692&nbsp;₸</b> құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>IBAN деген не?</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  IBAN – банктік шоттың 20&nbsp;таңбалы нөмірі. IBAN нөмірін
+                  банктің кез келген бөлімшесінен немесе интернет-банкингтің
+                  жеке кабинетінен біле аласыз.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="important__buttons">
+          <div class="important__btn">
+            <a href="/gde-kupit-lotereyu">Біздің сауда нүктелеріміз</a>
+          </div>
+          <div class="important__btn">
+            <a href="https://sz.kz/kontakty">“Сәтті Жұлдыз” бас кеңсесі</a>
+          </div>
+          <div class="important__btn">
+            <a href="/faq">Жиі қойылатын сұрақтар</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="final-result" id="result11">
+      <h3>
+        22 152 ₸-ден 100 000 ₸ дейін <br />
+        <span>Сауда нүктелері</span>
+      </h3>
+      <div class="info__wrapper">
+        <p>
+          <b>Ұтысты алу үшін:</b>
+          <br />
+          Байланыс орталығына қоңырау шалып, өз байланыс нөміріңізді қалдырыңыз.
+          Жақын маңдағы нүктеде қажетті сома жиналған бойда сізге дереу
+          хабарласады. 6&nbsp;АЕК-тен 100&nbsp;000&nbsp;теңгеге дейінгі ұтыстар
+          лотерея операторының кез келген аймақтағы флагмандық сауда
+          нүктелерінде төленеді.
+        </p>
+        <br />
+        <p>
+          <b>Ұтысты алу үшін сізге:</b>
+        </p>
+        <ol class="info__wrapper-list">
+          <li>жеке куәліктің көшірмесін;</li>
+          <li>ұтысқа ие болған билетті;</li>
+          <li>
+            Лотерея қатысушысының дербес деректерді жинауға, өңдеуге және
+            қорғауға келісімін ұсыну қажет (құжатқа сілтеме).
+          </li>
+        </ol>
+      </div>
+
+      <div class="box">
+        Бас жүлдені төлеу тәртібі ұтысқа ие болған лотерея билетін міндетті
+        түрде сараптамадан өткізуді талап етеді.
+      </div>
+
+      <div class="important__container">
+        <h3>Маңызды:</h3>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Төлеу мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Лотерея билетінің (түбіртектің) сараптамасын қоса алғанда,
+                  ұтысты қолма-қол ақшасыз төлеу рәсімі «Сәтті Жұлдыз» АҚ бас
+                  кеңсесі ұтымгер билетті (түбіртекті) алған күнінен бастап
+                  30&nbsp;(отыз) жұмыс күніне дейін құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысқа салық салу</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  ҚР Салық заңнамасына сәйкес АЕК-тің 6&nbsp;еселенген
+                  мөлшерінен асатын ұтыстарға төлем көзінен жеке табыс салығы
+                  салынады. Табыс салығын төлеу ұтысты алу сәтіндегі ҚР
+                  қолданыстағы Салық кодексіне сәйкес Лотерея қатысушысының
+                  ұтысы сомасынан салық сомасын ұстап қалу түрінде жүргізіледі.
+                  <br /><br />Жоғарыда көрсетілген салық ставкалары:
+                </p>
+                <ul>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР резиденттері үшін&nbsp;- 10% (он);
+                  </li>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР бейрезиденттері үшін&nbsp;- 20% (жиырма).
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Жеңілдік санатына жататын азаматтарға арналған төлемдер</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Егер жеңімпаз азаматтардың жеңілдік санатына жататын болса
+                  (ардагерлер, мүгедектер және&nbsp;т.б.), жүлдені тіркеу
+                  кезінде ол жеңілдік санатын растайтын құжатты ұсынуы қажет.
+                  Жеңілдетілген жеке табыс салығының сомасы ҚР қолданыстағы
+                  салық заңнамасына сәйкес есептелетін болады.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысты талап ету мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Тираждық ойындар бойынша ұтымгер лотерея билеттері ұтымгер
+                  билет қатысқан ұтыс ойыны өткізілген күннен бастап 6&nbsp;ай
+                  ішінде төлеуге қабылданады. <br /><br />
+                  Лездік ойындар бойынша ұтысты талап ету мерзімі лотереяның
+                  қолданылу мерзімі аяқталған сәттен бастап 6&nbsp;айды құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>2023 жылдың АЕК мөлшері</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Айлық есептік көрсеткіш (АЕК) жәрдемақыларды және өзге&nbsp;де
+                  әлеуметтік төлемдерді есептеу, сондай-ақ айыппұл санкцияларын,
+                  салықтарды және басқа&nbsp;да төлемдерді қолдану үшін
+                  қолданылады. Қазақстан Республикасының заңнамасына сәйкес
+                  2023&nbsp;жылы
+                  <b>3&nbsp;692&nbsp;₸</b> құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>IBAN деген не?</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  IBAN – банктік шоттың 20&nbsp;таңбалы нөмірі. IBAN нөмірін
+                  банктің кез келген бөлімшесінен немесе интернет-банкингтің
+                  жеке кабинетінен біле аласыз.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="important__buttons">
+          <div class="important__btn">
+            <a href="/gde-kupit-lotereyu">Біздің сауда нүктелеріміз</a>
+          </div>
+          <div class="important__btn">
+            <a href="https://sz.kz/kontakty">“Сәтті Жұлдыз” бас кеңсесі</a>
+          </div>
+          <div class="important__btn">
+            <a href="/faq">Жиі қойылатын сұрақтар</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="final-result" id="result12">
+      <h3>
+        100 000 ₸ астам <br />
+        <span>Сауда нүктелері</span>
+      </h3>
+      <div class="info__wrapper">
+        <p>
+          "Сәтті Жұлдыз" ұлттық лотереясының өңірлік өкілдігіне немесе
+          компанияның лотерея орталығына мына мекенжай бойынша жүгіну қажет:
+          Алматы&nbsp;қ., Жібек&nbsp;Жолы,&nbsp;50. Ұтыс тек жеңімпаздың карта
+          шотына (IBAN) қолма-қол ақшасыз есеп айырысу арқылы төленеді
+        </p>
+        <br />
+        <p>
+          <b>Ұтысты алу үшін сізге:</b>
+        </p>
+        <ol class="info__wrapper-list">
+          <li>жеке куәліктің көшірмесін;</li>
+          <li>ұтысқа ие болған билетті;</li>
+          <li>IBAN карта шотының түпнұсқасы немесе көшірмесін ұсыну;</li>
+        </ol>
+        <br />
+        <p><b>...сондай-ақ:</b></p>
+        <ol class="info__wrapper-list">
+          <li>
+            Лотерея қатысушысының дербес деректерді жинауға, өңдеуге және
+            қорғауға келісімі
+          </li>
+          <li>ақша қаражатын аударуға өтінім;</li>
+          <li>«анықтама» екі данада;</li>
+          <li>лотерея билетіне сараптама жүргізуге өтінім;</li>
+          <li>медиалық іс-шараларды өткізуге арналған келісімшарт;</li>
+          <li>«Жеңімпаздың байланыс деректері» формасын толтыру қажет.</li>
+        </ol>
+      </div>
+
+      <div class="box">
+        Бас жүлдені төлеу тәртібі ұтысқа ие болған лотерея билетін міндетті
+        түрде сараптамадан өткізуді талап етеді.
+      </div>
+
+      <div class="important__container">
+        <h3>Маңызды:</h3>
+        <div class="accordion">
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Төлеу мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Лотерея билетінің (түбіртектің) сараптамасын қоса алғанда,
+                  ұтысты қолма-қол ақшасыз төлеу рәсімі «Сәтті Жұлдыз» АҚ бас
+                  кеңсесі ұтымгер билетті (түбіртекті) алған күнінен бастап
+                  30&nbsp;(отыз) жұмыс күніне дейін құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысқа салық салу</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  ҚР Салық заңнамасына сәйкес АЕК-тің 6&nbsp;еселенген
+                  мөлшерінен асатын ұтыстарға төлем көзінен жеке табыс салығы
+                  салынады. Табыс салығын төлеу ұтысты алу сәтіндегі ҚР
+                  қолданыстағы Салық кодексіне сәйкес Лотерея қатысушысының
+                  ұтысы сомасынан салық сомасын ұстап қалу түрінде жүргізіледі.
+                  <br /><br />Жоғарыда көрсетілген салық ставкалары:
+                </p>
+                <ul>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР резиденттері үшін&nbsp;- 10% (он);
+                  </li>
+                  <li style="padding-top: 0; padding-bottom: 0">
+                    ҚР бейрезиденттері үшін&nbsp;- 20% (жиырма).
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Жеңілдік санатына жататын азаматтарға арналған төлемдер</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Егер жеңімпаз азаматтардың жеңілдік санатына жататын болса
+                  (ардагерлер, мүгедектер және&nbsp;т.б.), жүлдені тіркеу
+                  кезінде ол жеңілдік санатын растайтын құжатты ұсынуы қажет.
+                  Жеңілдетілген жеке табыс салығының сомасы ҚР қолданыстағы
+                  салық заңнамасына сәйкес есептелетін болады.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>Ұтысты талап ету мерзімі</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Тираждық ойындар бойынша ұтымгер лотерея билеттері ұтымгер
+                  билет қатысқан ұтыс ойыны өткізілген күннен бастап 6&nbsp;ай
+                  ішінде төлеуге қабылданады. <br /><br />
+                  Лездік ойындар бойынша ұтысты талап ету мерзімі лотереяның
+                  қолданылу мерзімі аяқталған сәттен бастап 6&nbsp;айды құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>2023 жылдың АЕК мөлшері</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  Айлық есептік көрсеткіш (АЕК) жәрдемақыларды және өзге&nbsp;де
+                  әлеуметтік төлемдерді есептеу, сондай-ақ айыппұл санкцияларын,
+                  салықтарды және басқа&nbsp;да төлемдерді қолдану үшін
+                  қолданылады. Қазақстан Республикасының заңнамасына сәйкес
+                  2023&nbsp;жылы
+                  <b>3&nbsp;692&nbsp;₸</b> құрайды.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <div class="accordion-title">
+              <p>IBAN деген не?</p>
+              <img
+                class="arrow"
+                src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                alt="Arrow" />
+            </div>
+            <div class="accordion-content">
+              <div class="accordion-content__inner">
+                <p>
+                  IBAN – банктік шоттың 20&nbsp;таңбалы нөмірі. IBAN нөмірін
+                  банктің кез келген бөлімшесінен немесе интернет-банкингтің
+                  жеке кабинетінен біле аласыз.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="important__buttons">
+          <div class="important__btn">
+            <a href="/gde-kupit-lotereyu">Біздің сауда нүктелеріміз</a>
+          </div>
+          <div class="important__btn">
+            <a href="https://sz.kz/kontakty">“Сәтті Жұлдыз” бас кеңсесі</a>
+          </div>
+          <div class="important__btn">
+            <a href="/faq">Жиі қойылатын сұрақтар</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="final-result" id="result13">
+        <h3>
+          22 152 ₸ дейін <br />
+          <span>Қазпошта бөлімшелерінде</span>
+        </h3>
+        <div class="info__wrapper">
+          <p>
+            <b>Ұтысты алу үшін:</b>
+            <br />
+            «Қазпошта» АҚ кез келген сауда нүктесіне (<a
+              href="https://post.kz/departments"
+              >https://post.kz/departments</a
+            >) немесе «Сәтті Жұлдыз» Ұлттық лотереясының сауда нүктесіне
+            жүгіну керек. Ұтыстарды төлеу сауда нүктесінде қолма-қол ақшамен
+            жүзеге асырылады.
+          </p>
+        </div>
+        <div class="box">
+          Бас жүлдені төлеу тәртібі ұтысқа ие болған лотерея билетін міндетті
+          түрде сараптамадан өткізуді талап етеді.
+        </div>
+
+        <div class="important__container">
+          <h3>Маңызды:</h3>
+          <div class="accordion">
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>Төлеу мерзімі</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    Лотерея билетінің (түбіртектің) сараптамасын қоса алғанда,
+                    ұтысты қолма-қол ақшасыз төлеу рәсімі «Сәтті Жұлдыз» АҚ
+                    бас кеңсесі ұтымгер билетті (түбіртекті) алған күнінен
+                    бастап 30&nbsp;(отыз) жұмыс күніне дейін құрайды.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>Ұтысқа салық салу</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    ҚР Салық заңнамасына сәйкес АЕК-тің 6&nbsp;еселенген
+                    мөлшерінен асатын ұтыстарға төлем көзінен жеке табыс
+                    салығы салынады. Табыс салығын төлеу ұтысты алу сәтіндегі
+                    ҚР қолданыстағы Салық кодексіне сәйкес Лотерея
+                    қатысушысының ұтысы сомасынан салық сомасын ұстап қалу
+                    түрінде жүргізіледі.
+                    <br /><br />Жоғарыда көрсетілген салық ставкалары:
+                  </p>
+                  <ul>
+                    <li style="padding-top: 0; padding-bottom: 0">
+                      ҚР резиденттері үшін&nbsp;- 10% (он);
+                    </li>
+                    <li style="padding-top: 0; padding-bottom: 0">
+                      ҚР бейрезиденттері үшін&nbsp;- 20% (жиырма).
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>Жеңілдік санатына жататын азаматтарға арналған төлемдер</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    Егер жеңімпаз азаматтардың жеңілдік санатына жататын болса
+                    (ардагерлер, мүгедектер және&nbsp;т.б.), жүлдені тіркеу
+                    кезінде ол жеңілдік санатын растайтын құжатты ұсынуы
+                    қажет. Жеңілдетілген жеке табыс салығының сомасы ҚР
+                    қолданыстағы салық заңнамасына сәйкес есептелетін болады.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>Ұтысты талап ету мерзімі</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    Тираждық ойындар бойынша ұтымгер лотерея билеттері ұтымгер
+                    билет қатысқан ұтыс ойыны өткізілген күннен бастап
+                    6&nbsp;ай ішінде төлеуге қабылданады. <br /><br />
+                    Лездік ойындар бойынша ұтысты талап ету мерзімі лотереяның
+                    қолданылу мерзімі аяқталған сәттен бастап 6&nbsp;айды
+                    құрайды.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>2023 жылдың АЕК мөлшері</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    Айлық есептік көрсеткіш (АЕК) жәрдемақыларды және
+                    өзге&nbsp;де әлеуметтік төлемдерді есептеу, сондай-ақ
+                    айыппұл санкцияларын, салықтарды және басқа&nbsp;да
+                    төлемдерді қолдану үшін қолданылады. Қазақстан
+                    Республикасының заңнамасына сәйкес 2023&nbsp;жылы
+                    <b>3&nbsp;692&nbsp;₸</b> құрайды.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>IBAN деген не?</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    IBAN – банктік шоттың 20&nbsp;таңбалы нөмірі. IBAN нөмірін
+                    банктің кез келген бөлімшесінен немесе интернет-банкингтің
+                    жеке кабинетінен біле аласыз.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="important__buttons">
+            <div class="important__btn">
+              <a
+                href="/gde-kupit-lotereyu"
+                >Біздің сауда нүктелеріміз</a
+              >
+            </div>
+            <div class="important__btn">
+              <a href="https://sz.kz/kontakty">“Сәтті Жұлдыз” бас кеңсесі</a>
+                                            </div>
+                                            <div class="important__btn">
+                                                <a href="/faq">Жиі қойылатын сұрақтар</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="final-result" id="result14">
+        <h3>
+          22 152 ₸-ден 100 000 ₸ дейін <br />
+          <span>Қазпошта бөлімшелерінде</span>
+        </h3>
+        <div class="info__wrapper">
+          <p>
+            6 АЕК-тен 100 000 теңгеге дейінгі ұтыстар Ұлттық лотереяның кез
+            келген аймақтағы сауда нүктелерінде төленеді
+          </p>
+          <br />
+          <p>
+            <b>Ұтысты алу үшін сізге:</b>
+          </p>
+          <ol class="info__wrapper-list">
+            <li>жеке куәліктің көшірмесін;</li>
+            <li>ұтысқа ие болған билетті;</li>
+            <li>
+              Лотерея қатысушысының дербес деректерді жинауға, өңдеуге және
+              қорғауға келісімін ұсыну қажет (құжатқа сілтеме).
+            </li>
+          </ol>
+        </div>
+
+        <div class="box">
+          Бас жүлдені төлеу тәртібі ұтысқа ие болған лотерея билетін міндетті
+          түрде сараптамадан өткізуді талап етеді.
+        </div>
+
+        <div class="important__container">
+          <h3>Маңызды:</h3>
+          <div class="accordion">
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>Төлеу мерзімі</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    Лотерея билетінің (түбіртектің) сараптамасын қоса алғанда,
+                    ұтысты қолма-қол ақшасыз төлеу рәсімі «Сәтті Жұлдыз» АҚ
+                    бас кеңсесі ұтымгер билетті (түбіртекті) алған күнінен
+                    бастап 30&nbsp;(отыз) жұмыс күніне дейін құрайды.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>Ұтысқа салық салу</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    ҚР Салық заңнамасына сәйкес АЕК-тің 6&nbsp;еселенген
+                    мөлшерінен асатын ұтыстарға төлем көзінен жеке табыс
+                    салығы салынады. Табыс салығын төлеу ұтысты алу сәтіндегі
+                    ҚР қолданыстағы Салық кодексіне сәйкес Лотерея
+                    қатысушысының ұтысы сомасынан салық сомасын ұстап қалу
+                    түрінде жүргізіледі.
+                    <br /><br />Жоғарыда көрсетілген салық ставкалары:
+                  </p>
+                  <ul>
+                    <li style="padding-top: 0; padding-bottom: 0">
+                      ҚР резиденттері үшін&nbsp;- 10% (он);
+                    </li>
+                    <li style="padding-top: 0; padding-bottom: 0">
+                      ҚР бейрезиденттері үшін&nbsp;- 20% (жиырма).
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>Жеңілдік санатына жататын азаматтарға арналған төлемдер</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    Егер жеңімпаз азаматтардың жеңілдік санатына жататын болса
+                    (ардагерлер, мүгедектер және&nbsp;т.б.), жүлдені тіркеу
+                    кезінде ол жеңілдік санатын растайтын құжатты ұсынуы
+                    қажет. Жеңілдетілген жеке табыс салығының сомасы ҚР
+                    қолданыстағы салық заңнамасына сәйкес есептелетін болады.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>Ұтысты талап ету мерзімі</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    Тираждық ойындар бойынша ұтымгер лотерея билеттері ұтымгер
+                    билет қатысқан ұтыс ойыны өткізілген күннен бастап
+                    6&nbsp;ай ішінде төлеуге қабылданады. <br /><br />
+                    Лездік ойындар бойынша ұтысты талап ету мерзімі лотереяның
+                    қолданылу мерзімі аяқталған сәттен бастап 6&nbsp;айды
+                    құрайды.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>2023 жылдың АЕК мөлшері</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    Айлық есептік көрсеткіш (АЕК) жәрдемақыларды және
+                    өзге&nbsp;де әлеуметтік төлемдерді есептеу, сондай-ақ
+                    айыппұл санкцияларын, салықтарды және басқа&nbsp;да
+                    төлемдерді қолдану үшін қолданылады. Қазақстан
+                    Республикасының заңнамасына сәйкес 2023&nbsp;жылы
+                    <b>3&nbsp;692&nbsp;₸</b> құрайды.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>IBAN деген не?</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    IBAN – банктік шоттың 20&nbsp;таңбалы нөмірі. IBAN нөмірін
+                    банктің кез келген бөлімшесінен немесе интернет-банкингтің
+                    жеке кабинетінен біле аласыз.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="important__buttons">
+            <div class="important__btn">
+              <a
+                href="/gde-kupit-lotereyu"
+                >Біздің сауда нүктелеріміз</a
+              >
+            </div>
+            <div class="important__btn">
+              <a href="https://sz.kz/kontakty">“Сәтті Жұлдыз” бас кеңсесі</a>
+                                            </div>
+                                            <div class="important__btn">
+                                                <a href="/faq">Жиі қойылатын сұрақтар</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="final-result" id="result15">
+        <h3>
+          100 000 ₸ астам <br />
+          <span>Қазпошта бөлімшелерінде</span>
+        </h3>
+        <div class="info__wrapper">
+          <p>
+            "Сәтті Жұлдыз" ұлттық лотереясының өңірлік өкілдігіне немесе компанияның лотерея орталығына мына мекенжай бойынша жүгіну қажет: Алматы&nbsp;қ., Жібек&nbsp;Жолы,&nbsp;50. Ұтыс
+            тек жеңімпаздың карта шотына (IBAN) қолма-қол ақшасыз есеп айырысу
+            арқылы төленеді.
+            <br />
+            <br />
+            <b>Ұтысты алу үшін сізге:</b>
+          </p>
+          <ol class="info__wrapper-list">
+            <li>жеке куәліктің көшірмесін;</li>
+            <li>ұтысқа ие болған билетті;</li>
+            <li>IBAN карта шотының түпнұсқасы немесе көшірмесін ұсыну;</li>
+          </ol>
+          <br />
+          <p><b>...сондай-ақ:</b></p>
+          <ol class="info__wrapper-list">
+            <li>
+              Лотерея қатысушысының дербес деректерді жинауға, өңдеуге және
+              қорғауға келісімі
+            </li>
+            <li>ақша қаражатын аударуға өтінім;</li>
+            <li>«анықтама» екі данада;</li>
+            <li>лотерея билетіне сараптама жүргізуге өтінім;</li>
+            <li>медиалық іс-шараларды өткізуге арналған келісімшарт;</li>
+            <li>«Жеңімпаздың байланыс деректері» формасын толтыру қажет.</li>
+          </ol>
+        </div>
+
+        <div class="box">
+          Бас жүлдені төлеу тәртібі ұтысқа ие болған лотерея билетін міндетті
+          түрде сараптамадан өткізуді талап етеді.
+        </div>
+
+        <div class="important__container">
+          <h3>Маңызды:</h3>
+          <div class="accordion">
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>Төлеу мерзімі</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    Лотерея билетінің (түбіртектің) сараптамасын қоса алғанда,
+                    ұтысты қолма-қол ақшасыз төлеу рәсімі «Сәтті Жұлдыз» АҚ
+                    бас кеңсесі ұтымгер билетті (түбіртекті) алған күнінен
+                    бастап 30&nbsp;(отыз) жұмыс күніне дейін құрайды.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>Ұтысқа салық салу</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    ҚР Салық заңнамасына сәйкес АЕК-тің 6&nbsp;еселенген
+                    мөлшерінен асатын ұтыстарға төлем көзінен жеке табыс
+                    салығы салынады. Табыс салығын төлеу ұтысты алу сәтіндегі
+                    ҚР қолданыстағы Салық кодексіне сәйкес Лотерея
+                    қатысушысының ұтысы сомасынан салық сомасын ұстап қалу
+                    түрінде жүргізіледі.
+                    <br /><br />Жоғарыда көрсетілген салық ставкалары:
+                  </p>
+                  <ul>
+                    <li style="padding-top: 0; padding-bottom: 0">
+                      ҚР резиденттері үшін&nbsp;- 10% (он);
+                    </li>
+                    <li style="padding-top: 0; padding-bottom: 0">
+                      ҚР бейрезиденттері үшін&nbsp;- 20% (жиырма).
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>Жеңілдік санатына жататын азаматтарға арналған төлемдер</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    Егер жеңімпаз азаматтардың жеңілдік санатына жататын болса
+                    (ардагерлер, мүгедектер және&nbsp;т.б.), жүлдені тіркеу
+                    кезінде ол жеңілдік санатын растайтын құжатты ұсынуы
+                    қажет. Жеңілдетілген жеке табыс салығының сомасы ҚР
+                    қолданыстағы салық заңнамасына сәйкес есептелетін болады.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>Ұтысты талап ету мерзімі</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    Тираждық ойындар бойынша ұтымгер лотерея билеттері ұтымгер
+                    билет қатысқан ұтыс ойыны өткізілген күннен бастап
+                    6&nbsp;ай ішінде төлеуге қабылданады. <br /><br />
+                    Лездік ойындар бойынша ұтысты талап ету мерзімі лотереяның
+                    қолданылу мерзімі аяқталған сәттен бастап 6&nbsp;айды
+                    құрайды.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>2023 жылдың АЕК мөлшері</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    Айлық есептік көрсеткіш (АЕК) жәрдемақыларды және
+                    өзге&nbsp;де әлеуметтік төлемдерді есептеу, сондай-ақ
+                    айыппұл санкцияларын, салықтарды және басқа&nbsp;да
+                    төлемдерді қолдану үшін қолданылады. Қазақстан
+                    Республикасының заңнамасына сәйкес 2023&nbsp;жылы
+                    <b>3&nbsp;692&nbsp;₸</b> құрайды.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <p>IBAN деген не?</p>
+                <img
+                  class="arrow"
+                  src="https://static.sz.kz/test/userguide/img/icon-close.svg"
+                  alt="Arrow" />
+              </div>
+              <div class="accordion-content">
+                <div class="accordion-content__inner">
+                  <p>
+                    IBAN – банктік шоттың 20&nbsp;таңбалы нөмірі. IBAN нөмірін
+                    банктің кез келген бөлімшесінен немесе интернет-банкингтің
+                    жеке кабинетінен біле аласыз.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="important__buttons">
+            <div class="important__btn">
+              <a
+                href="/gde-kupit-lotereyu"
+                >Біздің сауда нүктелеріміз</a
+              >
+            </div>
+            <div class="important__btn">
+              <a href="https://sz.kz/kontakty">“Сәтті Жұлдыз” бас кеңсесі</a>
+                                            </div>
+                                            <div class="important__btn">
+                                                <a href="/faq">Жиі қойылатын сұрақтар</a
+              >
+            </div>
+          </div>
+        </div>
+      </div> -->
+  </div>
+</div>
