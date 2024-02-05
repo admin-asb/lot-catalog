@@ -236,6 +236,7 @@ const popupTitle = document.querySelector(".popup__description h3");
 const popupText = document.querySelector(".popup__description p");
 const btnBuy = document.querySelector(".buy-btn");
 const btnRules = document.querySelector(".rules-btn");
+const popupBtn = document.querySelector(".popup__desc-bottom .popup__btn");
 
 tabsContainer.forEach(container => {
   container.addEventListener("click", function (e) {
@@ -254,9 +255,13 @@ tabsContainer.forEach(container => {
       popupTitle.innerText = tabData.title;
       popupText.innerHTML = tabData.text;
       if (tabData.linkBtn) {
+        btnBuy.classList.remove("hidden");
         btnBuy.setAttribute("href", tabData.linkBtn);
       } else {
         btnBuy.classList.add("hidden");
+      }
+      if (tabData.linkBtn === "/gde-kupit-lotereyu") {
+        popupBtn.innerText = "Точка продаж";
       }
       btnRules.setAttribute("href", tabData.linkRules);
       openModal();
