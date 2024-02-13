@@ -1,240 +1,244 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html {
-  font-family: "Nunito", sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 .container-common {
-  padding: 24px 16px 31px;
-  background: #f2f4f5;
+    padding: 24px 16px 31px;
+    background: #f2f4f5;
 }
 
 .container-common h2 {
-  color: var(--UI-kit-react-Black, #111318);
-  font-family: Nunito;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
+    color: var(--UI-kit-react-Black, #111318);
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
 }
 
 .lot-wrapper {
-  padding-top: 32px;
+    padding-top: 32px;
 }
 
 .lot-wrapper h3 {
-  color: var(--H2, #4e6799);
-  /* Txt react/podzagolovok */
-  font-family: Nunito;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  /* 120% */
+    color: var(--H2, #4e6799);
+    /* Txt react/podzagolovok */
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 120% */
 }
 
 .grid-container {
-  margin-top: 8px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2px 8px;
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px 8px;
 }
 
 .grid-item img {
-  width: 100%;
-  cursor: pointer;
+    width: 100%;
+    cursor: pointer;
 }
+
 
 /* Popup */
 
 .popup-inner {
-  display: block;
-  position: fixed;
-  background: #fff;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  border-radius: 32px 32px 0px 0px;
-  /* width: 100%; */
-  z-index: 104;
+    display: block;
+    position: fixed;
+    background: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 32px 32px 0px 0px;
+    /* width: 100%; */
+    z-index: 104;
 }
 
 .popup__desk-btn {
-  display: none;
+    display: none;
 }
 
 .btn--close-popup {
-  position: absolute;
-  top: -7%;
-  right: 2%;
-  font-size: 3rem;
-  cursor: pointer;
-  border: none;
-  background: none;
-  color: #fff;
+    position: absolute;
+    top: -7%;
+    right: 2%;
+    font-size: 3rem;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: #fff;
 }
 
 .popup__description {
-  margin: 16px 16px 90px;
+    margin: 16px 16px 90px;
 }
 
 .popup__description h3 {
-  color: var(--UI-kit-react-Black, #111318);
-  /* Txt react/zagolovok */
-  font-family: Nunito;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-  /* 100% */
+    color: var(--UI-kit-react-Black, #111318);
+    /* Txt react/zagolovok */
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 100% */
 }
 
 .popup__description p {
-  margin-top: 8px;
-  margin-bottom: 106px;
-  color: var(--UI-kit-react-Black, #111318);
-  /* Txt react/normal */
-  font-family: Nunito;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 22px;
-  /* 122.222% */
+    margin-top: 8px;
+    margin-bottom: 106px;
+    color: var(--UI-kit-react-Black, #111318);
+    /* Txt react/normal */
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 122.222% */
 }
 
 .popup__description a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .popup__pic img {
-  border-radius: 32px 32px 0px 0px;
-  width: 100vw;
+    border-radius: 32px 32px 0px 0px;
+    width: 100vw;
 }
 
 .popup__btn {
-  width: 100%;
-  padding: 16.67px;
-  border-radius: 12px;
-  background: #1249b5;
-  border: none;
-  color: var(--UI-kit-react-White, #fff);
-  text-align: center;
-  font-family: Nunito;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.28px;
-  text-transform: uppercase;
-  cursor: pointer;
+    width: 100%;
+    padding: 16.67px;
+    border-radius: 12px;
+    background: #1249b5;
+    border: none;
+    color: var(--UI-kit-react-White, #fff);
+    text-align: center;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .popup__description .popup__btn2 {
-  margin-top: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  border-radius: var(--Corner-radius-12, 12px);
-  border: 1px solid var(--Buttons-Primary, #1249b5);
-  background: #fff;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: var(--Corner-radius-12, 12px);
+    border: 1px solid var(--Buttons-Primary, #1249b5);
+    background: #fff;
 }
 
 .popup__description .popup__btn2 p {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: var(--Buttons-Primary, #1249b5);
-  text-align: center;
-  font-family: Nunito;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.28px;
-  text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--Buttons-Primary, #1249b5);
+    text-align: center;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
 }
 
 .overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: 103;
-  transition: all 0.5s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 103;
+    transition: all 0.5s;
 }
 
 @media (min-width: 590px) {
-  .popup-inner {
-    width: 360px;
-    height: 625px;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 32px;
-  }
-  .popup__pic img {
-    width: 360px;
-    border-radius: 32px 32px 0 0;
-  }
-  .popup__btn {
-    margin-left: 22px;
-    bottom: 40px;
-    width: 85%;
-  }
-  .btn--close-popup {
-    font-size: 70px;
-    top: -12%;
-    right: -7%;
-  }
-  /* .popup-inner a img {
+    .popup-inner {
+        width: 360px;
+        height: 650px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 32px;
+    }
+    .popup__pic img {
+        width: 360px;
+        border-radius: 32px 32px 0 0;
+    }
+    .popup__btn {
+        margin-left: 22px;
+        bottom: 40px;
+        width: 85%;
+    }
+    .btn--close-popup {
+        font-size: 70px;
+        top: -12%;
+        right: -7%;
+    }
+    /* .popup-inner a img {
     width: 125%;
   } */
-  .popup__description {
-    margin-bottom: 45px;
-  }
-  .popup__description p {
-    margin-bottom: 30px;
-  }
+    .popup__description {
+        height: 331px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .popup__description p {
+        margin-bottom: 30px;
+    }
 }
 
 .hidden {
-  display: none;
+    display: none;
 }
 
 .header__announ-button {
-  background: transparent !important;
+    background: transparent !important;
 }
 
 @media only screen and (max-width: 1024px) {
-  /* body {
+    /* body {
         position: fixed;
         width: -webkit-fill-available;
     } */
-  .order-page .fixed-footer-box {
-    position: fixed !important;
-    z-index: 105;
-  }
-  .fixed-footer-box.fixed {
-    position: fixed !important;
-    z-index: 105;
-  }
+    .order-page .fixed-footer-box {
+        position: fixed !important;
+        z-index: 105;
+    }
+    .fixed-footer-box.fixed {
+        position: fixed !important;
+        z-index: 105;
+    }
 }
 
 @media (min-width: 540px) {
-  .container-common {
-    max-width: 540px;
-    margin: 0 auto;
-  }
-  .grid-container {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+    .container-common {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
