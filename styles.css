@@ -199,15 +199,15 @@ body {
     /* .popup-inner a img {
     width: 125%;
   } */
-    .popup__description {
-        height: 331px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    .popup__description p {
-        margin-bottom: 30px;
-    }
+  .popup__description {
+    height: 331px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .popup__description p {
+    margin-bottom: 30px;
+  }
 }
 
 .hidden {
